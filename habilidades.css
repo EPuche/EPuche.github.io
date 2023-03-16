@@ -1,0 +1,40 @@
+.habilidades{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.habilidades-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.habilidad{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px var(--primary-color);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.habilidades-lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 950px){
+    
+    .habilidades-titulo{
+        font-size: 50px;
+    }
+    
+    .habilidad{
+        font-size: 30px;
+        margin: 20px;
+    }
+}
