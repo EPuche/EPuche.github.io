@@ -1,0 +1,45 @@
+.contacto{
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    border-radius: 14px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.contacto-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacto-info{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.contacto-subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contacto-vias{
+    font-size: 20px;
+}
+
+@media (min-width: 950px){
+    
+    .contacto-titulo{
+        font-size: 50px;
+    }
+    
+    .contacto-subtitulo{
+        font-size: 30px;
+    }
+
+    .contacto-vias{
+        font-size: 30px;
+    }
+}
